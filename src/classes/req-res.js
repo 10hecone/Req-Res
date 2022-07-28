@@ -1,29 +1,31 @@
 import fetch from 'node-fetch'
+let res;
 export class req {
   #url;
   constructor() {
-    this.#url = undefined
+    this.#url;
   }
 
-  async open(url) {
+  open(url) {
     this.#url = url
   }
 
   async get() {
-    return new Promise((resolve) => {
+    if(!this.#url) throw new Error('URI is not defined...  The request could not be completed.')
+    let r = new Promise((resolve) => {
         fetch(this.#url).then(r => resolve(r)).catch(() => resolve(0))
     });
+    res = await r
    }
 
-  async fetchStatus() {
-    return new Promise((resolve) => {
-        fetch(this.#url).then(r => resolve(r.status)).catch(() => resolve(0))
-    });
+  fetchStatus() {
+    if(!res) return 0;
+    return res.status;
    }
 
    async checkStatus() {
     let reponse = await this.fetchStatus()
-      if(reponse === 200) return true;
+      if(reponse <= 399 && reponse >= 200) return true;
       else return false;
    }
 }

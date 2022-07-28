@@ -5,12 +5,3 @@ import { req } from './classes/req-res.js'; // Class request et reponse
 export {
   req,
 };
-
-const e = new req()
-
-    e.open()
-    await e.checkStatus()
-    await e.fetchStatus()
-    await e.get()
-
-

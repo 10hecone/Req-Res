@@ -1,7 +1,7 @@
 {
   "name": "req-uri",
-  "version": "0.1.3",
-  "description": "Req permet de faire des demandes et de recevoir des réponses d'URI",
+  "version": "1.0.4",
+  "description": "Req allows making requests and receiving responses from URIs",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

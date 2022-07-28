@@ -1,11 +1,11 @@
-req-uri est un package permettant de faciliter l'utilisation des requetes et des reponses.
+req-uri is a package to facilitate the use of requests and responses.
 
 ## Description
 
 ```js
-Ce package permet de faciliter la manipulation des requetes et reponses
+This package facilitates the handling of requests and responses
 
-req-uri 0.1.0 est la version stable.
+req-uri 1.0.4 is the stable release.
 ```
 
 ## Installation
@@ -39,4 +39,4 @@ const var = new req()
 
 ## Creator
 
-![Hecone](https://media.discordapp.net/attachments/747623504681238528/999718283831947365/unknown.png)
+# Hecone
