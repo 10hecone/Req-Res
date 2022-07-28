@@ -1,7 +1,7 @@
 {
-  "name": "req-res",
-  "version": "0.1.0",
-  "description": "Req permet de faire des demandes et savoir si le lien fonctionne ou non, il permet aussi de faire des recherches.",
+  "name": "req-uri",
+  "version": "0.1.2",
+  "description": "Req permet de faire des demandes et de recevoir des réponses d'URI",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/10hecone/req-res.git"
+    "url": "https://github.com/10hecone/req-uri.git"
   },
   "author": {
     "name": "10Hecone",
