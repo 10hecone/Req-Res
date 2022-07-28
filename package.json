@@ -1,0 +1,28 @@
+{
+  "name": "req-res",
+  "version": "0.1.0",
+  "description": "Req permet de faire des demandes et savoir si le lien fonctionne ou non, il permet aussi de faire des recherches.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "req",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/10hecone/req-res.git"
+  },
+  "author": {
+    "name": "10Hecone",
+    "discordtag": "Hecone#2675",
+    "discordid": "466962388709670933"
+  },
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "node-fetch": "^3.2.9",
+    "xhr2": "^0.2.1"
+  }
+}
