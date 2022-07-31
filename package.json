@@ -1,6 +1,6 @@
 {
   "name": "req-uri",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Req allows making requests and receiving responses from URIs",
   "main": "./src/index.js",
   "scripts": {

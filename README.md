@@ -5,7 +5,7 @@ req-uri is a package to facilitate the use of requests and responses.
 ```js
 This package facilitates the handling of requests and responses
 
-req-uri 1.0.5 is the stable release.
+req-uri 1.0.6 is the stable release.
 ```
 
 ## Installation

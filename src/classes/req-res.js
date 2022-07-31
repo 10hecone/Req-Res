@@ -15,7 +15,7 @@ export class req { // Export req class to module
   // Function get
   async get() { // Send request from URL
     if (!this.#url) throw new Error('URI is not defined...  The request could not be completed.') // Create error if is not uri
-    let r = new Promise((resolve) => { // Create new promise
+    const r = new Promise((resolve) => { // Create new promise
       fetch(this.#url).then(r => resolve(r)).catch(() => resolve(0)) // Get response of URI
     });
     res = await r // Send response of variable res
